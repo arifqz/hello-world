@@ -1,0 +1,669 @@
+body {
+/*background-image: url("../images/eyes/background.png");*/
+background-color: tomato;
+}
+
+
+/*PARALLAX css Here*/
+div#para-back{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 1;
+}
+/* background middle layer */
+div#para-mid{
+       position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 2;
+}
+/* background layer */
+div#para-front{
+     position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 3;
+}
+
+div.eye {
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 1s ease-out;
+    mask-position: center center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+div.eye:hover {
+    filter: drop-shadow(10px 5px 5px #000000);
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    z-index:4;
+    transition: all 1s ease-in;
+}
+#pupil:hover{
+    transform: scale(.7, .7);
+    transition: all 1s linear;
+}
+
+.smallpupil {
+    transform: scale(.7,.7);
+}
+
+#pupil {
+    background-image: url("../images/pupils/eye30pupil.svg");
+    position: absolute;
+    transition: width .0000001s, height .00000001s, linear;
+
+}
+
+div.eye div.pupil28 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil29 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    
+}
+
+div.eye div.pupil30 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil31 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil32 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil33 {
+    left: 135px;
+    top: 50px;
+    width: 84px;
+    height: 91px;
+}
+div.eye div.pupil34 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+
+}
+
+div.eye div.pupil35 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil36 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil37 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil38 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil39 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil40 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+    position: absolute;
+
+}
+
+div.eye div.pupil41 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    
+}
+
+div.eye div.pupil42 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil43 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil44 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil45 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+
+}
+
+div.eye div.pupil46 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+
+}
+
+div.eye div.pupil47 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    
+}
+
+div.eye div.pupil48 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil49 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil50 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil51 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil52 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil53 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil54 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil55 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil56 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil57 {
+    left: 100px;
+    top: 30px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil58 {
+    left: 159px;
+    top: 60px;
+    width: 84px;
+    height: 91px;
+}
+
+div.eye div.pupil59 {
+    left: 120px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    
+}
+
+div.eye div.pupil60 {
+    left: 80px;
+    top: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+div.eye div.pupil61 {
+    left: 140px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+}
+
+#ellipse28{
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:10px;
+    top:5px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+}
+
+#ellipse29 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:400px;
+    top:120px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+    }
+
+#ellipse30 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:729px;
+    top:40px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+    }
+
+#ellipse31 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:400px;
+    top:350px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+    }
+
+#ellipse32 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye32.svg");
+    left:110px;
+    top:240px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye32.svg");
+    }
+
+#ellipse33 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye33.svg");
+    left:660px;
+    top:200px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye33.svg");
+}
+
+
+#ellipse34 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:660px;
+    top:500px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+}
+
+#ellipse35 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:300px;
+    top:480px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+}
+
+#ellipse36 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:120px;
+    top:600px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+}
+
+#ellipse37 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:990px;
+    top:190px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+}
+
+#ellipse38 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye32.svg");
+    left:410px;
+    top:642px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye32.svg");
+    mask-position: center center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+#ellipse39 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye33.svg");
+    left:1px;
+    top:420px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye33.svg");
+}
+
+#ellipse40 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:1240px;
+    top:300px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+}
+
+#ellipse41 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:900px;
+    top:360px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+}
+
+#ellipse42 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:840px;
+    top:650px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+}
+
+#ellipse43 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:1250px;
+    top:680px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+}
+
+#ellipse44 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye32.svg");
+    left:999px;
+    top:2px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye32.svg");
+}
+
+#ellipse45 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye33.svg");
+    left:1088px;
+    top:520px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye33.svg");
+}
+
+#ellipse46 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:1720px;
+    top:600px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+    }
+
+#ellipse47 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:1300px;
+    top:90px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+    }
+
+#ellipse48 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:1640px;
+    top:20px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+    }
+
+#ellipse49 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:1690px;
+    top:400px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+    }
+
+#ellipse50 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye32.svg");
+    left:1440px;
+    top:499px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye32.svg");
+    }
+
+#ellipse51 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye33.svg");
+    left:1544px;
+    top:200px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye33.svg");
+    }
+#ellipse52 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:2300px;
+    top:140px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+    }
+
+#ellipse53 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:2000px;
+    top:260px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+    }
+
+#ellipse54 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:2040px;
+    top:490px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+    }
+
+#ellipse55 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:2090px;
+    top:40px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+    }
+
+#ellipse56 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye32.svg");
+    left:1840px;
+    top:109px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye32.svg");
+    }
+
+#ellipse57 {
+    width: 321px;
+    height: 137px;
+    background-image: url("../images/eyes/eye33.svg");
+    left:2254px;
+    top:350px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye33.svg");
+    }
+#ellipse58 {
+    width: 398px;
+    height: 189px;
+    background-image: url("../images/eyes/eye28.svg");
+    left:2360px;
+    top:490px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye28.svg");
+    }
+
+#ellipse59 {
+    width: 284px;
+    height: 147px;
+    background-image: url("../images/eyes/eye29.svg");
+    left:2590px;
+    right:100px;
+    top:320px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye29.svg");
+    }
+
+#ellipse60 {
+    width: 221px;
+    height: 122px;
+    background-image: url("../images/eyes/eye30.svg");
+    left:2540px;
+    top:10px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye30.svg");
+    }
+
+#ellipse61 {
+    width: 344px;
+    height: 79px;
+    background-image: url("../images/eyes/eye31.svg");
+    left:2140px;
+    top:680px;
+    position: absolute;
+    mask-image: url("../images/eyes/eye31.svg");
+    }
+
+
+    
